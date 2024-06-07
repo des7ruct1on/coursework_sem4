@@ -1,0 +1,12 @@
+ADD_POOL mama
+ADD_SCHEME mama papa
+ADD_COLLECTION mama papa semya boundary_tags best_fit
+ADD_VALUE mama papa semya 1 2 P 1.0
+ADD_VALUE mama papa semya 2 3 U 1.5
+ADD_VALUE mama papa semya 3 4 Pa 2.0
+ADD_VALUE mama papa semya 4 5 L 2.5
+ADD_VALUE mama papa semya 5 6 Lu 3.0
+ADD_VALUE mama papa semya 6 7 Lupa 3.5
+ADD_VALUE mama papa semya 7 8 Pupa 4.0
+ADD_VALUE mama papa semya 8 9 PupaLupa 4.5
+ADD_VALUE mama papa semya 9 10 aoaoao 3.5

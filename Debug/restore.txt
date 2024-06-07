@@ -1,0 +1,6 @@
+ADD_POOL p0l
+ADD_SCHEME p0l sc
+ADD_COLLECTION p0l sc col boundary_tags first_fit
+ADD_VALUE p0l sc col 7 0  0.000000 2024-06-06 17:01:42
+FIND_VALUE p0l sc col 7
+READ_SET p0l sc col 7 0 1 0

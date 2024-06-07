@@ -1,0 +1,12 @@
+ADD_POOL mama
+ADD_SCHEME mama papa
+ADD_COLLECTION mama papa semya boundary_tags best_fit
+ADD_VALUE mama papa semya1 2 P 1.000000 2024-06-01 13:34:07
+ADD_VALUE mama papa semya2 3 U 1.500000 2024-06-01 13:34:07
+ADD_VALUE mama papa semya3 4 Pa 2.000000 2024-06-01 13:34:07
+ADD_VALUE mama papa semya4 5 L 2.500000 2024-06-01 13:34:07
+ADD_VALUE mama papa semya5 6 Lu 3.000000 2024-06-01 13:34:07
+ADD_VALUE mama papa semya6 7 Lupa 3.500000 2024-06-01 13:34:07
+ADD_VALUE mama papa semya7 8 Pupa 4.000000 2024-06-01 13:34:07
+ADD_VALUE mama papa semya8 9 PupaLupa 4.500000 2024-06-01 13:34:07
+ADD_VALUE mama papa semya9 10 aoaoao 3.500000 2024-06-01 13:34:07

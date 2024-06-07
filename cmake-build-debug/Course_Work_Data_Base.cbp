@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Course_Work_Data_Base"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Course_Work_Data_Base">
+				<Option output="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug/Course_Work_Data_Base" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug/Makefile&quot;  VERBOSE=1 Course_Work_Data_Base"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Course_Work_Data_Base/fast">
+				<Option output="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug/Course_Work_Data_Base" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug/Makefile&quot;  VERBOSE=1 Course_Work_Data_Base/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/allocators/allocater_boundary_tags.cpp">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/allocators/allocater_boundary_tags.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/allocators/allocator.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/allocators/allocator_buddies_system.cpp">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/allocators/allocator_buddies_system.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/allocators/allocator_global_heap.cpp">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/allocators/allocator_global_heap.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/allocators/allocator_guardant.cpp">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/allocators/allocator_guardant.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/allocators/allocator_sorted_list.cpp">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/allocators/allocator_sorted_list.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/allocators/allocator_test_utils.cpp">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/allocators/allocator_test_utils.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/allocators/allocator_types.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/allocators/allocator_with_fit_mode.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/chain_of_responsibility.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/collection.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/commands/comman_add_collection.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/commands/command.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/commands/command_add_pool.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/commands/command_add_scheme.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/commands/command_add_value.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/commands/command_delete_collection.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/commands/command_delete_pool.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/commands/command_delete_scheme.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/commands/command_delete_value.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/commands/command_find_value.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/commands/command_find_value_in_time.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/commands/command_read_set_value.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/commands/command_update_value.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/comparer.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/database.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/flyweight/string_flyweight.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/flyweight/string_flyweight_factory.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/include/associative_container.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/include/b_tree.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/include/binary_search_tree.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/include/search_tree.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/keys_values.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/logger/client_logger.cpp">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/logger/client_logger.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/logger/client_logger_builder.cpp">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/logger/client_logger_builder.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/logger/logger.cpp">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/logger/logger.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/logger/logger_builder.cpp">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/logger/logger_builder.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/logger/logger_guardant.cpp">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/logger/logger_guardant.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/logger/logger_singleton.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/main.cpp">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/persistence_singleton.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/pool.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/request_handler/handler.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/request_handler/request_handler_with_command.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/request_handler/request_handler_with_command_chain.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/scheme.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/second_key_comparer.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/version_singleton.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/wb.h">
+			<Option target="Course_Work_Data_Base"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/79257/CLionProjects/Course_Work_Data_Base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,160 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		2C3922FC2C110F1D00D6FAEF /* Course_Work_Data_Base.cbp */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Course_Work_Data_Base.cbp; sourceTree = "<group>"; };
+		2C3922FD2C110F1D00D6FAEF /* pupupu1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = pupupu1.txt; sourceTree = "<group>"; };
+		2C3922FE2C110F1D00D6FAEF /* CMakeFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CMakeFiles; sourceTree = "<group>"; };
+		2C3922FF2C110F1D00D6FAEF /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		2C3923002C110F1D00D6FAEF /* cmake_install.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = cmake_install.cmake; sourceTree = "<group>"; };
+		2C3923012C110F1D00D6FAEF /* pupupu.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = pupupu.txt; sourceTree = "<group>"; };
+		2C3923022C110F1D00D6FAEF /* Testing */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Testing; sourceTree = "<group>"; };
+		2C3923032C110F1D00D6FAEF /* file_for_reload.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = file_for_reload.txt; sourceTree = "<group>"; };
+		2C3923042C110F1D00D6FAEF /* CMakeCache.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeCache.txt; sourceTree = "<group>"; };
+		2C3923052C110F1D00D6FAEF /* version.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = version.txt; sourceTree = "<group>"; };
+		2C3923062C110F1D00D6FAEF /* output.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = output.txt; sourceTree = "<group>"; };
+		2C3923072C110F1D00D6FAEF /* Course_Work_Data_Base */ = {isa = PBXFileReference; lastKnownFileType = file; path = Course_Work_Data_Base; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2C3922F62C110F1D00D6FAEF = {
+			isa = PBXGroup;
+			children = (
+				2C3922FC2C110F1D00D6FAEF /* Course_Work_Data_Base.cbp */,
+				2C3922FD2C110F1D00D6FAEF /* pupupu1.txt */,
+				2C3922FE2C110F1D00D6FAEF /* CMakeFiles */,
+				2C3922FF2C110F1D00D6FAEF /* Makefile */,
+				2C3923002C110F1D00D6FAEF /* cmake_install.cmake */,
+				2C3923012C110F1D00D6FAEF /* pupupu.txt */,
+				2C3923022C110F1D00D6FAEF /* Testing */,
+				2C3923032C110F1D00D6FAEF /* file_for_reload.txt */,
+				2C3923042C110F1D00D6FAEF /* CMakeCache.txt */,
+				2C3923052C110F1D00D6FAEF /* version.txt */,
+				2C3923062C110F1D00D6FAEF /* output.txt */,
+				2C3923072C110F1D00D6FAEF /* Course_Work_Data_Base */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		2C3922FB2C110F1D00D6FAEF /* cmake-build-debug */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 2C3923082C110F1D00D6FAEF /* Build configuration list for PBXLegacyTarget "cmake-build-debug" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/ivan/Desktop/kursach/cmake-build-debug";
+			dependencies = (
+			);
+			name = "cmake-build-debug";
+			passBuildSettingsInEnvironment = 1;
+			productName = "cmake-build-debug";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		2C3922F72C110F1D00D6FAEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = 2C3922FA2C110F1D00D6FAEF /* Build configuration list for PBXProject "cmake-build-debug" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C3922F62C110F1D00D6FAEF;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C3922FB2C110F1D00D6FAEF /* cmake-build-debug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		2C3922F82C110F1D00D6FAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		2C3922F92C110F1D00D6FAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		2C3923092C110F1D00D6FAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "cmake-build-debug";
+			};
+			name = Debug;
+		};
+		2C39230A2C110F1D00D6FAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "cmake-build-debug";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C3922FA2C110F1D00D6FAEF /* Build configuration list for PBXProject "cmake-build-debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C3922F82C110F1D00D6FAEF /* Debug */,
+				2C3922F92C110F1D00D6FAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C3923082C110F1D00D6FAEF /* Build configuration list for PBXLegacyTarget "cmake-build-debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C3923092C110F1D00D6FAEF /* Debug */,
+				2C39230A2C110F1D00D6FAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C3922F72C110F1D00D6FAEF /* Project object */;
+}

@@ -1,0 +1,3 @@
+/Users/ivan/desktop/kursach/CMakeFiles/Kursach.dir
+/Users/ivan/desktop/kursach/CMakeFiles/edit_cache.dir
+/Users/ivan/desktop/kursach/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,13 @@
+ADD_POOL pool_52
+ADD_SCHEME pool_52 scheme_52
+ADD_COLLECTION pool_52 scheme_52 collection_52 boundary_tags first_fit
+ADD_VALUE pool_52 scheme_52 collection_52 1 2 Pupa 5.0
+ADD_POOL 777
+ADD_SCHEME 777 sc_777
+ADD_COLLECTION 777 sc_777 cl_777 boundary_tags first_fit
+ADD_VALUE 777 sc_777 cl_777 6 3 Lupa 1.0
+UPDATE_VALUE 777 sc_777 cl_777 6 4 Lulu 2.0
+DELETE_VALUE pool_52 scheme_52 collection_52 1
+DELETE_COLLECTION pool_52 scheme_52 collection_52
+DELETE_SCHEME pool_52 scheme_52
+DELETE_POOL pool_52

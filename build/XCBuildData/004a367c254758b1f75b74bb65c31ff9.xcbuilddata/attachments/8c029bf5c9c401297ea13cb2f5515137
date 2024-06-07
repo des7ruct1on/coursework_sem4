@@ -1,0 +1,13 @@
+/Users/ivan/desktop/kursach/build/Kursach.build/Debug/Objects-normal/arm64/allocater_boundary_tags.o
+/Users/ivan/desktop/kursach/build/Kursach.build/Debug/Objects-normal/arm64/allocator_buddies_system.o
+/Users/ivan/desktop/kursach/build/Kursach.build/Debug/Objects-normal/arm64/allocator_global_heap.o
+/Users/ivan/desktop/kursach/build/Kursach.build/Debug/Objects-normal/arm64/allocator_guardant.o
+/Users/ivan/desktop/kursach/build/Kursach.build/Debug/Objects-normal/arm64/allocator_red_black_tree.o
+/Users/ivan/desktop/kursach/build/Kursach.build/Debug/Objects-normal/arm64/allocator_sorted_list.o
+/Users/ivan/desktop/kursach/build/Kursach.build/Debug/Objects-normal/arm64/allocator_test_utils.o
+/Users/ivan/desktop/kursach/build/Kursach.build/Debug/Objects-normal/arm64/client_logger.o
+/Users/ivan/desktop/kursach/build/Kursach.build/Debug/Objects-normal/arm64/client_logger_builder.o
+/Users/ivan/desktop/kursach/build/Kursach.build/Debug/Objects-normal/arm64/logger.o
+/Users/ivan/desktop/kursach/build/Kursach.build/Debug/Objects-normal/arm64/logger_builder.o
+/Users/ivan/desktop/kursach/build/Kursach.build/Debug/Objects-normal/arm64/logger_guardant.o
+/Users/ivan/desktop/kursach/build/Kursach.build/Debug/Objects-normal/arm64/main.o

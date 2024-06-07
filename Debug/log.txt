@@ -1,0 +1,19 @@
+[06.06.2024][16:59:57][TRACE]DB created 
+[06.06.2024][16:59:57][TRACE]Started interacting 
+[06.06.2024][16:59:57][TRACE]getting mode 
+[06.06.2024][17:00:04][TRACE]getting mode input 
+[06.06.2024][17:00:06][TRACE]getting mode restore 
+[06.06.2024][17:00:09][TRACE]Started input mode 
+[06.06.2024][17:00:20][TRACE]adding pool: p0l 
+[06.06.2024][17:00:27][TRACE]adding schema: p0l/sc 
+[06.06.2024][17:00:27][TRACE]obtaining pool: p0l 
+[06.06.2024][17:01:05][TRACE]adding collection: p0l/sc/col 
+[06.06.2024][17:01:05][TRACE]obtaining pool: p0l 
+[06.06.2024][17:01:42][TRACE]adding value by key = 7from: p0l/sc/col 
+[06.06.2024][17:01:42][TRACE]obtaining pool: p0l 
+[06.06.2024][17:01:42][TRACE]obtaining value by key = 7from: p0l/sc/col 
+[06.06.2024][17:01:42][TRACE]obtaining pool: p0l 
+[06.06.2024][17:02:13][TRACE]obtaining value by key = 7from: p0l/sc/col 
+[06.06.2024][17:02:13][TRACE]obtaining pool: p0l 
+[06.06.2024][17:03:32][TRACE]obtaining between {7:0from: p0l/sc/col 
+[06.06.2024][17:03:32][TRACE]obtaining pool: p0l 

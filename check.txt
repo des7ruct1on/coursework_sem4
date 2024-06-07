@@ -1,0 +1,7 @@
+ADD_POOL pool_1
+ADD_SCHEME pool_1 scheme_1_1
+ADD_SCHEME pool_1 scheme_1_2
+ADD_SCHEME pool_1 scheme_1_3
+ADD_SCHEME pool_1 scheme_1_4
+ADD_SCHEME pool_1 scheme_1_5
+DELETE_POOL pool_1

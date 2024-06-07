@@ -1,0 +1,854 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		BC696C9F9EA04296868A2421 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A9B1A352629A4255845B5AD1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F327CEFBFBCF2DB336A8F169 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		BD8DA6CBD47D4C1E9C7D2A28 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AAED8009E58E4B27812750CF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				FC4989F351A91D6AF0F0C3B0 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				929ABB5230F94CA8850F366C /* PBXTargetDependency */,
+				F7B9E789FA114DA79155E2BE /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		13CE0CC5613A400EAE48C8E5 /* logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98D0BE0F900B443CAD7F42E2 /* logger.cpp */; };
+		16724EA085ED4095A8EFE70C /* allocator_red_black_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8518F1EBD3304750BA51B63F /* allocator_red_black_tree.cpp */; };
+		1E4A3CAF7F2745B7BDFDB124 /* allocator_global_heap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 487872D18CEC4232B3F4CDB7 /* allocator_global_heap.cpp */; };
+		46453DB84CC54B9BA3E6209D /* logger_guardant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 975CA9B2C47B4900BD4AE09A /* logger_guardant.cpp */; };
+		4C258BEBD795435DB2166305 /* client_logger_builder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCE098AC2E404D1E94F351F0 /* client_logger_builder.cpp */; };
+		597EC74D400F47FA8273C1F5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1667EAE7BED044518AB3588E /* main.cpp */; };
+		678B8595CE0B4B0CBE774590 /* allocator_sorted_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2C65C6D3D0648A2AAC005DF /* allocator_sorted_list.cpp */; };
+		A2F8252DBCB04360BA881E54 /* allocater_boundary_tags.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA3B2F8FA02740278C93AE0A /* allocater_boundary_tags.cpp */; };
+		B80D978753B843A48E5CC28D /* allocator_test_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A04BACFA928D46DF99AA6354 /* allocator_test_utils.cpp */; };
+		C0BC20D08E764A8BB5E0B3FC /* client_logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFAFA4FCD14A7A9A621746 /* client_logger.cpp */; };
+		C63AD9A6535A4610AA168BF7 /* logger_builder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2092600B0C946668F201A1C /* logger_builder.cpp */; };
+		E42ECC961DC147F2AABEE228 /* allocator_buddies_system.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D663264B4C64095A26BACC7 /* allocator_buddies_system.cpp */; };
+		F7102EAB417045649CC7A3C1 /* allocator_guardant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6E8DC1D4370462F9525FF7F /* allocator_guardant.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F163CA6EF654BF689D11770 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EAA3514747D4B78A5B94A24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC696C9F9EA04296868A2421;
+			remoteInfo = ZERO_CHECK;
+		};
+		3A90D1FD56D046E598CBBE32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EAA3514747D4B78A5B94A24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC696C9F9EA04296868A2421;
+			remoteInfo = ZERO_CHECK;
+		};
+		5557958F3A8C46C4B7AB56C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EAA3514747D4B78A5B94A24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 068FF030647E4213B6CA4B17;
+			remoteInfo = Kursach;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		109C12A2A74741468D8A89BC /* string_flyweight_factory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = string_flyweight_factory.h; path = flyweight/string_flyweight_factory.h; sourceTree = SOURCE_ROOT; };
+		11AADA28CBCE4869BB8D1415 /* logger_builder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = logger_builder.h; path = logger/logger_builder.h; sourceTree = SOURCE_ROOT; };
+		1667EAE7BED044518AB3588E /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		194A151F45A74884A6DF4E5C /* command_add_value.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = command_add_value.h; path = commands/command_add_value.h; sourceTree = SOURCE_ROOT; };
+		1ED9BDE7EB6D4A8AA301B235 /* comparer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = comparer.h; sourceTree = SOURCE_ROOT; };
+		2C39244E2C11234300D6FAEF /* interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = interface.h; sourceTree = "<group>"; };
+		2C39244F2C11CBDD00D6FAEF /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		2F1FA9A466A547BFA8865D9D /* database.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = database.h; sourceTree = SOURCE_ROOT; };
+		32386B31997C484C871A3D01 /* search_tree.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = search_tree.h; path = include/search_tree.h; sourceTree = SOURCE_ROOT; };
+		342BB5851FD44E46AA8C96A1 /* wb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = wb.h; sourceTree = SOURCE_ROOT; };
+		3E5E8072B30447089684C325 /* pool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = pool.h; sourceTree = SOURCE_ROOT; };
+		3FEFAFA4FCD14A7A9A621746 /* client_logger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = client_logger.cpp; path = logger/client_logger.cpp; sourceTree = SOURCE_ROOT; };
+		40C04BA482B54C5DB2C001F5 /* command_add_pool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = command_add_pool.h; path = commands/command_add_pool.h; sourceTree = SOURCE_ROOT; };
+		4119D3B09C404CD797C693C1 /* request_handler_with_command_chain.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = request_handler_with_command_chain.h; path = request_handler/request_handler_with_command_chain.h; sourceTree = SOURCE_ROOT; };
+		42761FFB39D343F4908D3F31 /* command_delete_value.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = command_delete_value.h; path = commands/command_delete_value.h; sourceTree = SOURCE_ROOT; };
+		452F443B7C1C4C8AB790AC27 /* allocator_red_black_tree.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = allocator_red_black_tree.h; path = allocators/allocator_red_black_tree.h; sourceTree = SOURCE_ROOT; };
+		487872D18CEC4232B3F4CDB7 /* allocator_global_heap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = allocator_global_heap.cpp; path = allocators/allocator_global_heap.cpp; sourceTree = SOURCE_ROOT; };
+		4D663264B4C64095A26BACC7 /* allocator_buddies_system.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = allocator_buddies_system.cpp; path = allocators/allocator_buddies_system.cpp; sourceTree = SOURCE_ROOT; };
+		5221C123DE3F44D7BC40EDB2 /* client_logger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = client_logger.h; path = logger/client_logger.h; sourceTree = SOURCE_ROOT; };
+		53E26E0700F7433C86464FAA /* request_handler_with_command.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = request_handler_with_command.h; path = request_handler/request_handler_with_command.h; sourceTree = SOURCE_ROOT; };
+		57E39326FBE04201AA10062D /* allocator_guardant.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = allocator_guardant.h; path = allocators/allocator_guardant.h; sourceTree = SOURCE_ROOT; };
+		5E92978C0CD24AECA64C186D /* allocator_test_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = allocator_test_utils.h; path = allocators/allocator_test_utils.h; sourceTree = SOURCE_ROOT; };
+		61EEB138DE4E4BA399CDE3B4 /* second_key_comparer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = second_key_comparer.h; sourceTree = SOURCE_ROOT; };
+		6CA3DF74FBD14C2B8EF8DE6A /* scheme.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = scheme.h; sourceTree = SOURCE_ROOT; };
+		6ECB79C231A24D079B55CD70 /* b_tree.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b_tree.h; path = include/b_tree.h; sourceTree = SOURCE_ROOT; };
+		770DC318E7D04270863752EE /* allocator_types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = allocator_types.h; path = allocators/allocator_types.h; sourceTree = SOURCE_ROOT; };
+		7E0721D0A8844308ABEFEF1F /* logger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = logger.h; path = logger/logger.h; sourceTree = SOURCE_ROOT; };
+		7EBE135212F84489A2C84BC4 /* handler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = handler.h; path = request_handler/handler.h; sourceTree = SOURCE_ROOT; };
+		7FBAAEE168ED44B1ADC765AA /* command_add_scheme.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = command_add_scheme.h; path = commands/command_add_scheme.h; sourceTree = SOURCE_ROOT; };
+		8518F1EBD3304750BA51B63F /* allocator_red_black_tree.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = allocator_red_black_tree.cpp; path = allocators/allocator_red_black_tree.cpp; sourceTree = SOURCE_ROOT; };
+		86BD5F20ABB440B198F5BC4B /* comman_add_collection.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = comman_add_collection.h; path = commands/comman_add_collection.h; sourceTree = SOURCE_ROOT; };
+		8B24E111C02441CFA335F9ED /* collection.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = collection.h; sourceTree = SOURCE_ROOT; };
+		8B99D91868984EFD9EFA013F /* typename_holder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = typename_holder.h; path = allocators/typename_holder.h; sourceTree = SOURCE_ROOT; };
+		8E1FFEBF5EAF4DF2B9A416A3 /* allocator_with_fit_mode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = allocator_with_fit_mode.h; path = allocators/allocator_with_fit_mode.h; sourceTree = SOURCE_ROOT; };
+		8FC6068C68FA4693892CCB70 /* binary_search_tree.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = binary_search_tree.h; path = include/binary_search_tree.h; sourceTree = SOURCE_ROOT; };
+		946CCD33D4F94622B499DDF2 /* associative_container.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = associative_container.h; path = include/associative_container.h; sourceTree = SOURCE_ROOT; };
+		975CA9B2C47B4900BD4AE09A /* logger_guardant.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = logger_guardant.cpp; path = logger/logger_guardant.cpp; sourceTree = SOURCE_ROOT; };
+		9862BFC30CF344B8BBDAA4DF /* allocator_global_heap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = allocator_global_heap.h; path = allocators/allocator_global_heap.h; sourceTree = SOURCE_ROOT; };
+		98D0BE0F900B443CAD7F42E2 /* logger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = logger.cpp; path = logger/logger.cpp; sourceTree = SOURCE_ROOT; };
+		9A101199207848D58B15ABCF /* command_find_value.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = command_find_value.h; path = commands/command_find_value.h; sourceTree = SOURCE_ROOT; };
+		A04BACFA928D46DF99AA6354 /* allocator_test_utils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = allocator_test_utils.cpp; path = allocators/allocator_test_utils.cpp; sourceTree = SOURCE_ROOT; };
+		A1C8E7F8D62C4569B185CB2E /* logger_guardant.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = logger_guardant.h; path = logger/logger_guardant.h; sourceTree = SOURCE_ROOT; };
+		A344755DFF734C40925DA865 /* chain_of_responsibility.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = chain_of_responsibility.h; sourceTree = SOURCE_ROOT; };
+		A6E8DC1D4370462F9525FF7F /* allocator_guardant.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = allocator_guardant.cpp; path = allocators/allocator_guardant.cpp; sourceTree = SOURCE_ROOT; };
+		A9EEA52DCB3A449B99A0C1F6 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		ABA65D22E8544D839FA4357C /* command_delete_collection.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = command_delete_collection.h; path = commands/command_delete_collection.h; sourceTree = SOURCE_ROOT; };
+		AE69FA0942674D6389298DC7 /* command_read_set_value.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = command_read_set_value.h; path = commands/command_read_set_value.h; sourceTree = SOURCE_ROOT; };
+		BA29C2CF8C6C4A02B8517F87 /* command.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = command.h; path = commands/command.h; sourceTree = SOURCE_ROOT; };
+		BCE098AC2E404D1E94F351F0 /* client_logger_builder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = client_logger_builder.cpp; path = logger/client_logger_builder.cpp; sourceTree = SOURCE_ROOT; };
+		BDB0D5B2989A4C1D9B37F045 /* persistence_singleton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = persistence_singleton.h; sourceTree = SOURCE_ROOT; };
+		C0C49155B6C04084B436D44C /* command_update_value.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = command_update_value.h; path = commands/command_update_value.h; sourceTree = SOURCE_ROOT; };
+		C2092600B0C946668F201A1C /* logger_builder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = logger_builder.cpp; path = logger/logger_builder.cpp; sourceTree = SOURCE_ROOT; };
+		CA086A3A6B1B464FACA1FC64 /* allocator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = allocator.h; path = allocators/allocator.h; sourceTree = SOURCE_ROOT; };
+		CA3B2F8FA02740278C93AE0A /* allocater_boundary_tags.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = allocater_boundary_tags.cpp; path = allocators/allocater_boundary_tags.cpp; sourceTree = SOURCE_ROOT; };
+		CC08E8D67D8A4049855923FC /* allocater_boundary_tags.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = allocater_boundary_tags.h; path = allocators/allocater_boundary_tags.h; sourceTree = SOURCE_ROOT; };
+		D2ADC39EC9A94CA3970E3EAB /* version_singleton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = version_singleton.h; sourceTree = SOURCE_ROOT; };
+		D2C65C6D3D0648A2AAC005DF /* allocator_sorted_list.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = allocator_sorted_list.cpp; path = allocators/allocator_sorted_list.cpp; sourceTree = SOURCE_ROOT; };
+		DB1F875F1A17440DBA7634E9 /* string_flyweight.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = string_flyweight.h; path = flyweight/string_flyweight.h; sourceTree = SOURCE_ROOT; };
+		DC749143A1B1488DA62DEA96 /* allocator_sorted_list.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = allocator_sorted_list.h; path = allocators/allocator_sorted_list.h; sourceTree = SOURCE_ROOT; };
+		DD1C02F79FB74691B5724169 /* Kursach */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Kursach; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3DEE1ACBDC843EE96481142 /* client_logger_builder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = client_logger_builder.h; path = logger/client_logger_builder.h; sourceTree = SOURCE_ROOT; };
+		E57F9CC839D645EDA790928A /* command_delete_scheme.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = command_delete_scheme.h; path = commands/command_delete_scheme.h; sourceTree = SOURCE_ROOT; };
+		E6DF398658D64A6AAA3AEB5D /* command_delete_pool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = command_delete_pool.h; path = commands/command_delete_pool.h; sourceTree = SOURCE_ROOT; };
+		EB84A9C80AA645189D054782 /* allocator_buddies_system.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = allocator_buddies_system.h; path = allocators/allocator_buddies_system.h; sourceTree = SOURCE_ROOT; };
+		F5935BB524E94671B66F70B1 /* command_find_value_in_time.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = command_find_value_in_time.h; path = commands/command_find_value_in_time.h; sourceTree = SOURCE_ROOT; };
+		F7F944DA463E4B76A277683E /* keys_values.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = keys_values.h; sourceTree = SOURCE_ROOT; };
+		FFEFF4774F4A433DAC579BBC /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDD2FCA10A8F4D1DBC8D7B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0649364829FD4D34AD4D592B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD1C02F79FB74691B5724169 /* Kursach */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BED20CC29E8482F99565933 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		4B1450659D90414F9EE38920 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA3B2F8FA02740278C93AE0A /* allocater_boundary_tags.cpp */,
+				4D663264B4C64095A26BACC7 /* allocator_buddies_system.cpp */,
+				487872D18CEC4232B3F4CDB7 /* allocator_global_heap.cpp */,
+				A6E8DC1D4370462F9525FF7F /* allocator_guardant.cpp */,
+				8518F1EBD3304750BA51B63F /* allocator_red_black_tree.cpp */,
+				D2C65C6D3D0648A2AAC005DF /* allocator_sorted_list.cpp */,
+				A04BACFA928D46DF99AA6354 /* allocator_test_utils.cpp */,
+				3FEFAFA4FCD14A7A9A621746 /* client_logger.cpp */,
+				BCE098AC2E404D1E94F351F0 /* client_logger_builder.cpp */,
+				98D0BE0F900B443CAD7F42E2 /* logger.cpp */,
+				C2092600B0C946668F201A1C /* logger_builder.cpp */,
+				975CA9B2C47B4900BD4AE09A /* logger_guardant.cpp */,
+				1667EAE7BED044518AB3588E /* main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4E1C8597B35E4B4F9489D16F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC08E8D67D8A4049855923FC /* allocater_boundary_tags.h */,
+				CA086A3A6B1B464FACA1FC64 /* allocator.h */,
+				EB84A9C80AA645189D054782 /* allocator_buddies_system.h */,
+				9862BFC30CF344B8BBDAA4DF /* allocator_global_heap.h */,
+				57E39326FBE04201AA10062D /* allocator_guardant.h */,
+				452F443B7C1C4C8AB790AC27 /* allocator_red_black_tree.h */,
+				DC749143A1B1488DA62DEA96 /* allocator_sorted_list.h */,
+				5E92978C0CD24AECA64C186D /* allocator_test_utils.h */,
+				770DC318E7D04270863752EE /* allocator_types.h */,
+				8E1FFEBF5EAF4DF2B9A416A3 /* allocator_with_fit_mode.h */,
+				8B99D91868984EFD9EFA013F /* typename_holder.h */,
+				A344755DFF734C40925DA865 /* chain_of_responsibility.h */,
+				8B24E111C02441CFA335F9ED /* collection.h */,
+				86BD5F20ABB440B198F5BC4B /* comman_add_collection.h */,
+				BA29C2CF8C6C4A02B8517F87 /* command.h */,
+				40C04BA482B54C5DB2C001F5 /* command_add_pool.h */,
+				7FBAAEE168ED44B1ADC765AA /* command_add_scheme.h */,
+				194A151F45A74884A6DF4E5C /* command_add_value.h */,
+				ABA65D22E8544D839FA4357C /* command_delete_collection.h */,
+				E6DF398658D64A6AAA3AEB5D /* command_delete_pool.h */,
+				E57F9CC839D645EDA790928A /* command_delete_scheme.h */,
+				42761FFB39D343F4908D3F31 /* command_delete_value.h */,
+				9A101199207848D58B15ABCF /* command_find_value.h */,
+				F5935BB524E94671B66F70B1 /* command_find_value_in_time.h */,
+				AE69FA0942674D6389298DC7 /* command_read_set_value.h */,
+				C0C49155B6C04084B436D44C /* command_update_value.h */,
+				1ED9BDE7EB6D4A8AA301B235 /* comparer.h */,
+				2F1FA9A466A547BFA8865D9D /* database.h */,
+				DB1F875F1A17440DBA7634E9 /* string_flyweight.h */,
+				109C12A2A74741468D8A89BC /* string_flyweight_factory.h */,
+				946CCD33D4F94622B499DDF2 /* associative_container.h */,
+				6ECB79C231A24D079B55CD70 /* b_tree.h */,
+				8FC6068C68FA4693892CCB70 /* binary_search_tree.h */,
+				32386B31997C484C871A3D01 /* search_tree.h */,
+				F7F944DA463E4B76A277683E /* keys_values.h */,
+				5221C123DE3F44D7BC40EDB2 /* client_logger.h */,
+				E3DEE1ACBDC843EE96481142 /* client_logger_builder.h */,
+				7E0721D0A8844308ABEFEF1F /* logger.h */,
+				11AADA28CBCE4869BB8D1415 /* logger_builder.h */,
+				A1C8E7F8D62C4569B185CB2E /* logger_guardant.h */,
+				BDB0D5B2989A4C1D9B37F045 /* persistence_singleton.h */,
+				3E5E8072B30447089684C325 /* pool.h */,
+				7EBE135212F84489A2C84BC4 /* handler.h */,
+				53E26E0700F7433C86464FAA /* request_handler_with_command.h */,
+				4119D3B09C404CD797C693C1 /* request_handler_with_command_chain.h */,
+				6CA3DF74FBD14C2B8EF8DE6A /* scheme.h */,
+				61EEB138DE4E4BA399CDE3B4 /* second_key_comparer.h */,
+				D2ADC39EC9A94CA3970E3EAB /* version_singleton.h */,
+				342BB5851FD44E46AA8C96A1 /* wb.h */,
+				2C39244E2C11234300D6FAEF /* interface.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		533D1015BA19477F94167F54 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7A9C5CF7FF9E497594BFEC17 /* Kursach */ = {
+			isa = PBXGroup;
+			children = (
+				4B1450659D90414F9EE38920 /* Source Files */,
+				4E1C8597B35E4B4F9489D16F /* Header Files */,
+				A9EEA52DCB3A449B99A0C1F6 /* CMakeLists.txt */,
+			);
+			name = Kursach;
+			sourceTree = "<group>";
+		};
+		8B3DA88CF7B546D0AC9D5B17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A23B3B6F06E42DA84B7EF4F /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				2BED20CC29E8482F99565933 /* CMake Rules */,
+				FFEFF4774F4A433DAC579BBC /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		AD5EE70EF1B640EEB003895E = {
+			isa = PBXGroup;
+			children = (
+				2C39244F2C11CBDD00D6FAEF /* input.txt */,
+				7A9C5CF7FF9E497594BFEC17 /* Kursach */,
+				9A23B3B6F06E42DA84B7EF4F /* ALL_BUILD */,
+				0649364829FD4D34AD4D592B /* Products */,
+				8B3DA88CF7B546D0AC9D5B17 /* Frameworks */,
+				533D1015BA19477F94167F54 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		068FF030647E4213B6CA4B17 /* Kursach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86DF680CFD0A430B98C04D0C /* Build configuration list for PBXNativeTarget "Kursach" */;
+			buildPhases = (
+				35F34BEE298048D3A5F6811B /* Sources */,
+				CDD2FCA10A8F4D1DBC8D7B0D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F53BE002C1A45A19828E320 /* PBXTargetDependency */,
+			);
+			name = Kursach;
+			productName = Kursach;
+			productReference = DD1C02F79FB74691B5724169 /* Kursach */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EAA3514747D4B78A5B94A24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1540;
+			};
+			buildConfigurationList = 463DCFB4CD7C436185254AB9 /* Build configuration list for PBXProject "Kursach" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD5EE70EF1B640EEB003895E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD8DA6CBD47D4C1E9C7D2A28 /* ALL_BUILD */,
+				068FF030647E4213B6CA4B17 /* Kursach */,
+				BC696C9F9EA04296868A2421 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F327CEFBFBCF2DB336A8F169 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+				/Users/ivan/desktop/kursach/CMakeFiles/ZERO_CHECK,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/ivan/desktop/kursach\n  make -f /Users/ivan/desktop/kursach/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/ivan/desktop/kursach\n  make -f /Users/ivan/desktop/kursach/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/ivan/desktop/kursach\n  make -f /Users/ivan/desktop/kursach/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/ivan/desktop/kursach\n  make -f /Users/ivan/desktop/kursach/CMakeScripts/ReRunCMake.make\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC4989F351A91D6AF0F0C3B0 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+				/Users/ivan/desktop/kursach/CMakeFiles/ALL_BUILD,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/ivan/desktop/kursach\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/ivan/desktop/kursach\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/ivan/desktop/kursach\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/ivan/desktop/kursach\n  echo Build\\ all\\ projects\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35F34BEE298048D3A5F6811B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F8252DBCB04360BA881E54 /* allocater_boundary_tags.cpp in Sources */,
+				E42ECC961DC147F2AABEE228 /* allocator_buddies_system.cpp in Sources */,
+				1E4A3CAF7F2745B7BDFDB124 /* allocator_global_heap.cpp in Sources */,
+				F7102EAB417045649CC7A3C1 /* allocator_guardant.cpp in Sources */,
+				16724EA085ED4095A8EFE70C /* allocator_red_black_tree.cpp in Sources */,
+				678B8595CE0B4B0CBE774590 /* allocator_sorted_list.cpp in Sources */,
+				B80D978753B843A48E5CC28D /* allocator_test_utils.cpp in Sources */,
+				C0BC20D08E764A8BB5E0B3FC /* client_logger.cpp in Sources */,
+				4C258BEBD795435DB2166305 /* client_logger_builder.cpp in Sources */,
+				13CE0CC5613A400EAE48C8E5 /* logger.cpp in Sources */,
+				C63AD9A6535A4610AA168BF7 /* logger_builder.cpp in Sources */,
+				46453DB84CC54B9BA3E6209D /* logger_guardant.cpp in Sources */,
+				597EC74D400F47FA8273C1F5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F53BE002C1A45A19828E320 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC696C9F9EA04296868A2421 /* ZERO_CHECK */;
+			targetProxy = 0F163CA6EF654BF689D11770 /* PBXContainerItemProxy */;
+		};
+		929ABB5230F94CA8850F366C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 068FF030647E4213B6CA4B17 /* Kursach */;
+			targetProxy = 5557958F3A8C46C4B7AB56C2 /* PBXContainerItemProxy */;
+		};
+		F7B9E789FA114DA79155E2BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC696C9F9EA04296868A2421 /* ZERO_CHECK */;
+			targetProxy = 3A90D1FD56D046E598CBBE32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13E019D74CAB44CAB00C4C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		22DE6AD1E5D644F786C45574 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		2437D7D3A35D47C48417ADCE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		293B83A4350B439B9D89E71D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/ivan/desktop/kursach/build;
+			};
+			name = Release;
+		};
+		5BA0085B45C148FD983AF18A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		60F9EC0788174171A5BED7FE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ivan/desktop/kursach/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Kursach;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ivan/desktop/kursach/build/Kursach.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		687D88886CD949CCB196FE53 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		7376B08726274515BCBB7B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ivan/desktop/kursach/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Kursach;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ivan/desktop/kursach/build/Kursach.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		797768EEDE3E4FB98BD4AE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		990BBFE391114A4098DFE934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		A7CCFF7E85BF462F8BF56AB2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ivan/desktop/kursach/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Kursach;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ivan/desktop/kursach/build/Kursach.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		C14E587A4AE34058BF13C377 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/ivan/desktop/kursach/build;
+			};
+			name = RelWithDebInfo;
+		};
+		C3323C2BE5EE46E48036731E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ivan/desktop/kursach/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Kursach;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ivan/desktop/kursach/build/Kursach.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		D0800E4A8E7F499DAA43AB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		F79D48600D36480CABAB78F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk;
+				SYMROOT = /Users/ivan/desktop/kursach/build;
+			};
+			name = Debug;
+		};
+		F948C2200BEC45E8B73A1129 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/ivan/desktop/kursach/build;
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		463DCFB4CD7C436185254AB9 /* Build configuration list for PBXProject "Kursach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F79D48600D36480CABAB78F9 /* Debug */,
+				293B83A4350B439B9D89E71D /* Release */,
+				F948C2200BEC45E8B73A1129 /* MinSizeRel */,
+				C14E587A4AE34058BF13C377 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		86DF680CFD0A430B98C04D0C /* Build configuration list for PBXNativeTarget "Kursach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3323C2BE5EE46E48036731E /* Debug */,
+				7376B08726274515BCBB7B0D /* Release */,
+				60F9EC0788174171A5BED7FE /* MinSizeRel */,
+				A7CCFF7E85BF462F8BF56AB2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A9B1A352629A4255845B5AD1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0800E4A8E7F499DAA43AB2F /* Debug */,
+				990BBFE391114A4098DFE934 /* Release */,
+				5BA0085B45C148FD983AF18A /* MinSizeRel */,
+				687D88886CD949CCB196FE53 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AAED8009E58E4B27812750CF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E019D74CAB44CAB00C4C78 /* Debug */,
+				797768EEDE3E4FB98BD4AE20 /* Release */,
+				22DE6AD1E5D644F786C45574 /* MinSizeRel */,
+				2437D7D3A35D47C48417ADCE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EAA3514747D4B78A5B94A24 /* Project object */;
+}
